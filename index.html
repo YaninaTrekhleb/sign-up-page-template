@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign up page</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-    
-<h1>
-    Create your account
-</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sign up page</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        
+    <h1>
+        Create your account
+    </h1>
 
-<div class="container">
-    <form>
-        <div class="form-input">
-            First name
-            <input type="text" name="firstname">
-            Last name
-            <input type="text" name="lastname">
-            Email
-            <input type="text" name="email">
-            Password (6 or more characters)
-            <input type="text" name="password">
-            <input type="checkbox" id="terms" name="terms"
-            checked>
-            <label for="terms">
-                I agree to all Terms of Use and Privacy Statement
-            </label>
-            <input type="create_account" value="Create account">
-            <p>or</p>
-            <input type="continue_with_facebook" value="Continue with Facebook">
-        </div>
-    </form>
+    <div class="container">
+        <form>
+            <div class="form-input">
+                <p class=form-input-data>First name</p>
+                <input type="text" name="firstname">
 
-<p>Already have an account? Log in</p>
+                <p class=form-input-data>Last name</p>
+                <input type="text" name="lastname">
 
-</div>
+                <p class=form-input-data>Email</p>
+                <input type="text" name="email">
 
-</body>
+                <p class=form-input-data>Password (6 or more characters)</p>
+                <input type="text" name="password">
+
+                <div class="form-terms">
+                    <input type="checkbox" id="terms" name="terms"
+                    checked>
+                    <label for="terms">
+                        I agree to all <span class="navy-blue">Terms of Use</span> and <span class="navy-blue">Privacy Statement</span> 
+                    </label>
+                </div>
+
+                <input type="create_account" value="Create account">
+                
+                <p id="or">or</p>
+
+                <input type="continue_with_facebook" value="Continue with Facebook">
+            </div>
+        </form>
+
+        
+    <p class="have-account">Already have an account? <span class="navy-blue">Log in</span></p>
+
+    </div>
+
+    </body>
 </html>

@@ -1,14 +1,21 @@
 /* Font link */
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+    background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(164,175,199,1) 100%,rgba(157,169,195,1) 100%,rgba(125,185,232,1) 100%);
+}
 
 body {
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
+    background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(164,175,199,1) 100%,rgba(157,169,195,1) 100%,rgba(125,185,232,1) 100%);
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    font-size: 40px;
+    color: #B2A4A4;
 }
 
 .form-input {
@@ -18,7 +25,8 @@ h1 {
 }
 
 .container {
-    background-color: aquamarine;
+    background-color:#D7D8DD;
+    box-shadow: 0 0 5px #D7D8DD;
     width: 400px;
     height: 545px;
     margin: auto;
@@ -26,3 +34,78 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+
+.form-input-data {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+    margin: 10px 0 2px 0px;
+    
+}
+
+input[type=text] {
+    width: 353px;
+    height: 40px;
+    border: #413f3f solid 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#413f3f;
+}
+
+.form-terms {
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    align-self: flex-start;
+    margin: 20px 0 20px 0;
+}
+
+.form-terms label {
+    color: #887C7C;
+    align-self: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navy-blue {
+    color: #0E2248;
+}
+
+input[type=create_account] {
+    width: 353px;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(58,116,167,0.8) 49%,rgba(68,137,197,0.8) 77%,rgba(75,154,221,0.99) 99%,rgba(125,185,232,1) 100%);
+    opacity: 0.8;
+    color: #F7F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+}
+
+input[type=continue_with_facebook] {
+    width: 353px;
+    height: 40px;
+    background-color: #385A9B;
+    color: #F7F2F2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#or {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #887C7C;
+}
+
+.have-account {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #887C7C;
+    margin: 25px 0 7px 0;
+}
+
