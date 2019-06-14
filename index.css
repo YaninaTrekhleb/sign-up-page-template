@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 html {
-    background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(164,175,199,1) 100%,rgba(157,169,195,1) 100%,rgba(125,185,232,1) 100%);
+    height: 100%;
+    display: inline-flex;
 }
 
 body {
     max-width: 900px;
+    height: 100%;
     margin: auto;
     background: linear-gradient(to bottom, rgba(247,247,247,1) 0%,rgba(164,175,199,1) 100%,rgba(157,169,195,1) 100%,rgba(125,185,232,1) 100%);
 }
@@ -70,7 +72,7 @@ input[type=text] {
     color: #0E2248;
 }
 
-input[type=create_account] {
+#create-account-button {
     width: 353px;
     height: 40px;
     background: linear-gradient(to bottom, rgba(58,116,167,0.8) 49%,rgba(68,137,197,0.8) 77%,rgba(75,154,221,0.99) 99%,rgba(125,185,232,1) 100%);
@@ -83,7 +85,7 @@ input[type=create_account] {
     border-radius: 3px;
 }
 
-input[type=continue_with_facebook] {
+#facebook-button {
     width: 353px;
     height: 40px;
     background-color: #385A9B;
